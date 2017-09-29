@@ -1,0 +1,21 @@
+{
+  "name": "learningexpressjs",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "mustafa <devmustafasaeed@outlook.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}
