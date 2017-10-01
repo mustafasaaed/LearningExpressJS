@@ -12,13 +12,14 @@ var nav = [{
 }];
 
 var bookRouter = require('./src/routes/bookRoutes')(nav);
+var adminRouter = require('./src/routes/adminRoutes')(nav);
 
 app.use(experss.static('public'));
 app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
-
 app.use('/books', bookRouter);
+app.use('/admin', adminRouter);
 app.get('/', function (req, res) {
 	var data = {
 		title: 'hello',
